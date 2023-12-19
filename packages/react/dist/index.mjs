@@ -480,7 +480,7 @@ var Text = ({
 }) => {
   const textStyles = twMerge10(
     sizeStyles[size],
-    "text-neutral-800",
+    "text-neutral-700",
     "font-semi-bold",
     className
   );

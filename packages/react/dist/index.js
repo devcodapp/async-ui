@@ -483,7 +483,7 @@ var Text = ({
 }) => {
   const textStyles = (0, import_tailwind_merge10.twMerge)(
     sizeStyles[size],
-    "text-neutral-800",
+    "text-neutral-700",
     "font-semi-bold",
     className
   );
