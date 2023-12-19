@@ -1,5 +1,8 @@
 import type { Preview } from "@storybook/react";
 import { themes } from '@storybook/theming';
+import async from './async';
+
+import '@async-ui/react/dist/output.css';
 
 const preview: Preview = {
   parameters: {
@@ -14,7 +17,7 @@ const preview: Preview = {
       },
     },
     docs: {
-        theme: themes.dark
+        theme: async
     }
     },
   }

@@ -89,7 +89,7 @@ var colors = {
   // Mesma cor
   "dark-neutral-700": "#eaeaef",
   "dark-neutral-800": "#ffffff",
-  // Mesma cor    
+  // Mesma cor
   "dark-neutral-900": "#ffffff",
   // Mesma cor
   "dark-neutral-1000": "#ffffff",
@@ -98,7 +98,7 @@ var colors = {
   "dark-primary-200": "#4a4a6a",
   "dark-primary-500": "#4945ff",
   "dark-primary-600": "#7b79ff",
-  // Mesma cor  
+  // Mesma cor
   "dark-primary-700": "#7b79ff",
   // Mesma cor
   "dark-secondary-100": "#181826",

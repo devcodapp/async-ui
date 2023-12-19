@@ -1,6 +1,6 @@
 import { addons } from '@storybook/manager-api';
-import { themes } from '@storybook/theming';
+import async from './async';
 
 addons.setConfig({
-  theme: themes.dark,
+  theme: async,
 });
