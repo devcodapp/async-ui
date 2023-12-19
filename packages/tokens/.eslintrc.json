@@ -1,0 +1,3 @@
+{
+    "extends": "@async-ui/eslint-config"
+}
