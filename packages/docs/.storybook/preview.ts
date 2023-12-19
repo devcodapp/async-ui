@@ -2,7 +2,7 @@ import type { Preview } from "@storybook/react";
 import { themes } from '@storybook/theming';
 import async from './async';
 
-import '@async-ui/react/dist/output.css';
+import '@asyncui/react/dist/output.css';
 
 const preview: Preview = {
   parameters: {

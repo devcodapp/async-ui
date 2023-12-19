@@ -1,5 +1,5 @@
 import { Button, useDisclosure } from '@nextui-org/react'
-import { Dialog } from '@async-ui/react'
+import { Dialog } from '@asyncui/react'
 
 export default {
   title: 'Components/Dialog',
