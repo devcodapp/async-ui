@@ -23,7 +23,7 @@ export const Text: React.FC<TextProps> = ({
 }) => {
   const textStyles = twMerge(
     sizeStyles[size],
-    'text-neutral-800',
+    'text-neutral-700',
     'font-semi-bold',
     className,
   )
