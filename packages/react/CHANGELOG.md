@@ -1,5 +1,11 @@
 # @asyncui/react
 
+## 3.0.2
+
+### Patch Changes
+
+- fix Alert component
+
 ## 3.0.1
 
 ### Patch Changes

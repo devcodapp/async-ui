@@ -8,14 +8,29 @@ export default {
   args: {
     title: 'Warning alert:',
     children:
-      'Alert with title and longer description Alert with title and longer description Alert with title and longer description Alert with title and longer description.',
+      'Alert with title and longer description.',
     variant: 'warning',
     onClose: () => {},
-    size: 'large',
+    size: 'small',
     link: 'https://www.google.com/',
     textLink: 'Saiba Mais',
   },
-  parameters: { layout: 'centered' },
+  argTypes: {
+    size: {
+      control: { type: 'inline-radio' },
+      options: ['small', 'large',],
+      table: {
+        defaultValue: { summary: 'md' },
+      },
+    },
+    variant: {
+      control: { type: 'inline-radio' },
+      options: ['warning', 'success', 'info', 'danger'],
+    },
+  },
+  parameters: {
+    layout: 'centered',
+  },
 } as Meta<AlertProps>
 
 export const Alert_: StoryObj<AlertProps> = {}

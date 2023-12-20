@@ -42,8 +42,8 @@ export function Alert({
     'p-5 rounded shadow border border-solid m-5 flex gap-3.5 items-start relative'
 
   const sizeStyles = {
-    small: 'min-h-16 min-w-[31.25rem]',
-    large: 'min-h-32 max-w-[31.25rem]',
+    small: 'min-w-[31.25rem]',
+    large: ' max-w-[31.25rem]',
   }
 
   const classVariant = {
