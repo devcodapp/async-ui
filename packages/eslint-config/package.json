@@ -1,6 +1,6 @@
 {
-  "name": "@asyncui/eslint-config",
-  "version": "2.0.2",
+  "name": "@async-design/eslint-config",
+  "version": "2.0.3",
   "license": "MIT",
   "private": true,
   "main": "index.js",

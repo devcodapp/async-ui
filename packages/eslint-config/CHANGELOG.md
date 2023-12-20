@@ -1,4 +1,10 @@
-# @asyncui/eslint-config
+# @async-design/eslint-config
+
+## 2.0.3
+
+### Patch Changes
+
+- dist error
 
 ## 2.0.2
 

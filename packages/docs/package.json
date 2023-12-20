@@ -1,5 +1,5 @@
 {
-  "name": "@asyncui/docs",
+  "name": "@async-design/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,10 +14,10 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
-    "@asyncui/eslint-config": "*",
-    "@asyncui/react": "*",
-    "@asyncui/tokens": "*",
-    "@asyncui/ts-config": "*",
+    "@async-design/eslint-config": "*",
+    "@async-design/react": "*",
+    "@async-design/tokens": "*",
+    "@async-design/ts-config": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

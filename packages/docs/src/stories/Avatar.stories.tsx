@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Avatar, AvatarProps } from '@asyncui/react'
+import { Avatar, AvatarProps } from '@async-design/react'
 
 export default {
   title: 'Components/Avatar',

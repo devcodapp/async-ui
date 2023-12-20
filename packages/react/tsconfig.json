@@ -1,4 +1,4 @@
 {
-    "extends": "@asyncui/ts-config/react.json",
+    "extends": "@async-design/ts-config/react.json",
     "include": ["src"],
 }

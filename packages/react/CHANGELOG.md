@@ -1,4 +1,10 @@
-# @asyncui/react
+# @async-design/react
+
+## 3.0.4
+
+### Patch Changes
+
+- dist error
 
 ## 3.0.3
 

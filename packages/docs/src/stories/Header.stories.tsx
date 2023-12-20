@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Header, HeaderProps } from '@asyncui/react'
+import { Header, HeaderProps } from '@async-design/react'
 
 export default {
   title: 'Components/Header',

@@ -1,4 +1,10 @@
-# @asyncui/ts-config
+# @async-design/ts-config
+
+## 2.0.4
+
+### Patch Changes
+
+- dist error
 
 ## 2.0.3
 

@@ -1,4 +1,4 @@
-import { colors } from '@asyncui/tokens'
+import { colors } from '@async-design/tokens'
 import { getContrast } from 'polished'
 export function ColorsGrid() {
   return Object.entries(colors).map(([key, color]) => {

@@ -1,4 +1,4 @@
-import { AlertProps, Alert, useAlert } from '@asyncui/react'
+import { AlertProps, Alert, useAlert } from '@async-design/react'
 import { Meta, StoryObj } from '@storybook/react'
 
 export default {
