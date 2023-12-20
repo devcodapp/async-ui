@@ -1,5 +1,11 @@
 # @asyncui/react
 
+## 3.0.1
+
+### Patch Changes
+
+- fix import error
+
 ## 3.0.0
 
 ### Major Changes
