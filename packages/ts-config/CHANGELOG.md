@@ -1,4 +1,10 @@
-# @async-design/ts-config
+# @asyncui/ts-config
+
+## 2.0.5
+
+### Patch Changes
+
+- rename all packages
 
 ## 2.0.4
 

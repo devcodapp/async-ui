@@ -1,4 +1,10 @@
-# @async-design/react
+# @asyncui/react
+
+## 3.0.5
+
+### Patch Changes
+
+- rename all packages
 
 ## 3.0.4
 

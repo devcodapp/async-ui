@@ -1,6 +1,6 @@
 {
-  "name": "@async-design/tokens",
-  "version": "2.0.3",
+  "name": "@asyncui/tokens",
+  "version": "2.0.4",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@async-design/ts-config": "*",
-    "@async-design/eslint-config": "*",
+    "@asyncui/ts-config": "*",
+    "@asyncui/eslint-config": "*",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
   }

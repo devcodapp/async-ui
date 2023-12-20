@@ -1,4 +1,10 @@
-# @async-design/eslint-config
+# @asyncui/eslint-config
+
+## 2.0.4
+
+### Patch Changes
+
+- rename all packages
 
 ## 2.0.3
 

@@ -1,6 +1,6 @@
 {
-  "name": "@async-design/react",
-  "version": "3.0.4",
+  "name": "@asyncui/react",
+  "version": "3.0.5",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,9 +14,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@async-design/eslint-config": "*",
-    "@async-design/tokens": "*",
-    "@async-design/ts-config": "*",
+    "@asyncui/eslint-config": "*",
+    "@asyncui/tokens": "*",
+    "@asyncui/ts-config": "*",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
     "autoprefixer": "^10.4.16",

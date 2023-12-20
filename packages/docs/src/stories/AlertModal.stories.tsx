@@ -1,5 +1,5 @@
 import { Button, useDisclosure } from '@nextui-org/react'
-import { ModalAlert } from '@async-design/react'
+import { ModalAlert } from '@asyncui/react'
 import { AlertCircle } from 'lucide-react'
 
 export default {
