@@ -1,5 +1,11 @@
 # @asyncui/eslint-config
 
+## 2.0.2
+
+### Patch Changes
+
+- fix error build
+
 ## 2.0.1
 
 ### Patch Changes

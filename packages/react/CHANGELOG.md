@@ -1,5 +1,11 @@
 # @asyncui/react
 
+## 3.0.3
+
+### Patch Changes
+
+- fix error build
+
 ## 3.0.2
 
 ### Patch Changes
