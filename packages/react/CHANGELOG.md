@@ -1,5 +1,11 @@
 # @asyncui/react
 
+## 3.0.6
+
+### Patch Changes
+
+- config update
+
 ## 3.0.5
 
 ### Patch Changes
