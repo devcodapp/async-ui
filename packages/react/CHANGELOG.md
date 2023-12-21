@@ -1,5 +1,11 @@
 # @asyncui/react
 
+## 3.1.1
+
+### Patch Changes
+
+- colors export
+
 ## 3.1.0
 
 ### Minor Changes

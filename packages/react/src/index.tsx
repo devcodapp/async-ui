@@ -6,3 +6,6 @@ export * from './components/Header/Header'
 export * from './components/ModalAlert'
 export * from './components/Text/Text'
 export * from './components/Avatar/Avatar'
+
+
+export * from '@asyncui/tokens/src/colors'
