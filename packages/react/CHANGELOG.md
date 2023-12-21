@@ -1,5 +1,11 @@
 # @asyncui/react
 
+## 3.1.0
+
+### Minor Changes
+
+- Dist export
+
 ## 3.0.6
 
 ### Patch Changes
