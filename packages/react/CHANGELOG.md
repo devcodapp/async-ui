@@ -1,5 +1,11 @@
 # @asyncui/react
 
+## 3.2.0
+
+### Minor Changes
+
+- Colors test
+
 ## 3.1.1
 
 ### Patch Changes

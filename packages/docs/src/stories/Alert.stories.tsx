@@ -52,7 +52,7 @@ export const Action = () => {
   return (
     <button
       onClick={addAlert}
-      className="bg-primary-600 border text-white px-6 py-2 rounded-md"
+      className="bg-colors-primary-600 border text-colors-neutral-0 px-6 py-2 rounded-md"
     >
       Adicionar Alert
       {alerts}

@@ -17,7 +17,7 @@ export function ModalFooter({
   return (
     <ModalFooterNextUI
       className={twMerge(
-        'justify-between border-solid border-t border-neutral-200',
+        'justify-between border-solid border-t border-colors-neutral-200',
         className,
       )}
       {...props}

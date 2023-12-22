@@ -52,7 +52,7 @@ export const ModalAlert_ = () => {
       <Button onPress={onOpen}>Open Modal</Button>
       <ModalAlert.Root isOpen={isOpen} onOpenChange={onOpenChange}>
         <ModalAlert.Header>
-          <p className="text-black">Confirmação</p>
+          <p className="text-colors-neutral-1000">Confirmação</p>
         </ModalAlert.Header>
         <ModalAlert.Content>
           <AlertCircle
@@ -60,13 +60,13 @@ export const ModalAlert_ = () => {
             color="#B72B1A"
             size={28}
           />
-          <p className="font-semibold text-red-500 text-center m-4">
+          <p className="font-semibold text-colors-danger-500 text-center m-4">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id,
             beatae?
           </p>
         </ModalAlert.Content>
         <ModalAlert.Footer>
-          <button className="flex items-center gap-1 body-semi justify-center rounded px-4 py-3 bg-gray-700 text-primary-600  border border-solid ">
+          <button className="flex items-center gap-1 body-semi justify-center rounded px-4 py-3 bg-colors-neutral-700 text-colors-primary-600  border border-solid ">
             Botões
           </button>
         </ModalAlert.Footer>

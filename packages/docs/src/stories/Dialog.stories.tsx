@@ -65,7 +65,7 @@ export const Dialog_ = () => {
           </p>
         </Dialog.Content>
         <Dialog.Footer>
-          <button className="flex items-center gap-1 body-semi justify-center rounded px-4 py-3  text-primary-600  border border-solid ">
+          <button className="flex items-center gap-1 body-semi justify-center rounded px-4 py-3  text-colors-primary-600  border border-solid ">
             Adicionar Conteúdo
           </button>
         </Dialog.Footer>

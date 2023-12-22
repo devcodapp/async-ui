@@ -17,7 +17,7 @@ export function ModalHeader({
   return (
     <ModalHeaderNextUI
       className={twMerge(
-        'pt-6 border-solid border-b border-neutral-200 flex justify-center pb-6',
+        'pt-6 border-solid border-b border-colors-neutral-200 flex justify-center pb-6',
         className,
       )}
       {...props}

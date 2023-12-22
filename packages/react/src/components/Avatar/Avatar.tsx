@@ -19,7 +19,7 @@ export const Avatar = ({ className, ...props }: AvatarProps) => {
       <AvatarNextUI
         {...props}
         icon={<AvatarIcon />}
-        className={twMerge('bg-alternative-500 text-black', className)}
+        className={twMerge('bg-colors-alternative-500 text-colors-neutral-1000', className)}
       />
     </div>
   )

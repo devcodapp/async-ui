@@ -47,10 +47,10 @@ export function Alert({
   }
 
   const classVariant = {
-    success: 'bg-success-100 border-success-200 ',
-    info: 'bg-primary-300 border-primary-400',
-    danger: 'bg-danger-100 border-danger-200 ',
-    warning: 'bg-warning-100 border-warning-200 ',
+    success: 'bg-colors-success-100 border-colors-success-200 ',
+    info: 'bg-colors-primary-300 border-colors-primary-400',
+    danger: 'bg-colors-danger-100 border-colors-danger-200 ',
+    warning: 'bg-colors-warning-100 border-colors-warning-200 ',
   }
 
   return (
@@ -69,13 +69,13 @@ export function Alert({
       >
         <div className="w-4">
           {variant === 'success' ? (
-            <CheckCircle2 size={16} className="text-success-600" />
+            <CheckCircle2 size={16} className="text-colors-success-600" />
           ) : variant === 'danger' ? (
-            <AlertCircleIcon size={16} className="text-danger-600" />
+            <AlertCircleIcon size={16} className="text-colors-danger-600" />
           ) : variant === 'warning' ? (
-            <AlertCircleIcon size={16} className="text-warning-600" />
+            <AlertCircleIcon size={16} className="text-colors-warning-600" />
           ) : (
-            <Info size={16} className="text-primary-600" />
+            <Info size={16} className="text-colors-primary-600" />
           )}
         </div>
         <div
@@ -86,21 +86,21 @@ export function Alert({
           }`}
         >
           {title && (
-            <p className="font-bold text-neutral-800 text-sm mb-1 mr-1">
+            <p className="font-bold text-colors-neutral-800 text-sm mb-1 mr-1">
               {title}
             </p>
           )}
-          {children && <p className="mr-2 text-neutral-800">{children}</p>}
+          {children && <p className="mr-2 text-colors-neutral-800">{children}</p>}
           {link && (
             <>
               <a
                 href={link}
-                className="text-primary-700 flex justify-normal items-center gap-1 self-baseline"
+                className="text-colors-primary-700 flex justify-normal items-center gap-1 self-baseline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 {textLink || link}
-                <ExternalLink size={11} className="text-primary-700" />
+                <ExternalLink size={11} className="text-colors-primary-700" />
               </a>
             </>
           )}
@@ -111,7 +111,7 @@ export function Alert({
             onClose && onClose()
           }}
         >
-          <X size={16} className="absolute right-5 text-neutral-700" />
+          <X size={16} className="absolute right-5 text-colors-neutral-700" />
         </button>
       </div>
     </Transition>
