@@ -1,5 +1,17 @@
 # @asyncui/react
 
+## 3.2.1
+
+### Patch Changes
+
+- ## Dialog and Alert Modal
+
+  border and background color
+
+  ## Alert fix bug
+
+  ## Header fix secondary button
+
 ## 3.2.0
 
 ### Minor Changes

@@ -1,9 +1,12 @@
-import { ModalBody as ModalBodyNextUI, ModalBodyProps } from '@nextui-org/react'
-import { ReactNode } from 'react'
-import { twMerge } from 'tailwind-merge'
+import {
+  ModalBody as ModalBodyNextUI,
+  ModalBodyProps,
+} from "@nextui-org/react";
+import { ReactNode } from "react";
+import { twMerge } from "tailwind-merge";
 
 export interface ModalContentProps extends ModalBodyProps {
-  children: ReactNode
+  children: ReactNode;
 }
 
 export function ModalContent({
@@ -12,8 +15,11 @@ export function ModalContent({
   ...props
 }: ModalContentProps) {
   return (
-    <ModalBodyNextUI className={twMerge('py-3 gap-3', className)} {...props}>
+    <ModalBodyNextUI
+      className={twMerge("py-3 bg-white gap-3", className)}
+      {...props}
+    >
       {children}
     </ModalBodyNextUI>
-  )
+  );
 }

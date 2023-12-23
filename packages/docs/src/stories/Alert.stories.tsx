@@ -1,61 +1,52 @@
-import { AlertProps, Alert, useAlert } from '@asyncui/react'
-import { Meta, StoryObj } from '@storybook/react'
+import { AlertProps, Alert, useAlert } from "@asyncui/react";
+import { Meta, StoryObj } from "@storybook/react";
 
 export default {
-  title: 'Components/Alert',
+  title: "Components/Alert",
   component: Alert,
-  tags: ['autodocs'],
+  tags: ["autodocs"],
   args: {
-    title: 'Warning alert:',
-    children:
-      'Alert with title and longer description.',
-    variant: 'warning',
+    title: "Warning alert:",
+    children: "Alert with title and longer description.",
+    variant: "warning",
     onClose: () => {},
-    size: 'small',
-    link: 'https://www.google.com/',
-    textLink: 'Saiba Mais',
+    size: "large",
+    link: "https://www.google.com/",
+    textLink: "Saiba Mais",
   },
   argTypes: {
-    size: {
-      control: { type: 'inline-radio' },
-      options: ['small', 'large',],
-      table: {
-        defaultValue: { summary: 'md' },
-      },
-    },
     variant: {
-      control: { type: 'inline-radio' },
-      options: ['warning', 'success', 'info', 'danger'],
+      control: { type: "inline-radio" },
+      options: ["warning", "success", "info", "danger"],
     },
   },
   parameters: {
-    layout: 'centered',
+    layout: "centered",
   },
-} as Meta<AlertProps>
+} as Meta<AlertProps>;
 
-export const Alert_: StoryObj<AlertProps> = {}
+export const Alert_: StoryObj<AlertProps> = {};
 
 export const Action = () => {
-  const { alerts, createToast } = useAlert()
+  const { alerts, createToast } = useAlert();
 
   const addAlert = () => {
     createToast({
-      title: 'Warning alert:',
-      children: 'Alert with title and longer description.',
-      variant: 'success',
+      title: "Warning alert:",
+      children: "Alert with title and longer description.",
       onClose: () => {},
-      size: 'small',
-      link: 'https://www.google.com/',
-      textLink: 'Saiba Mais',
-    })
-  }
+      size: "large",
+      link: "https://www.google.com/",
+      textLink: "Saiba Mais",
+    });
+  };
   return (
     <button
       onClick={addAlert}
-      className="bg-colors-primary-600 border text-colors-neutral-0 px-6 py-2 rounded-md"
+      className="bg-white border text-colors-neutral-1000 px-6 py-2 rounded-md"
     >
       Adicionar Alert
       {alerts}
     </button>
-  )
-}
+  );
+};

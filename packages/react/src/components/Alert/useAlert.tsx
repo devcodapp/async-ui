@@ -1,31 +1,31 @@
-import { useState } from 'react'
-import { Alert } from './Alert'
-import { Transition } from '@headlessui/react'
+import { useState } from "react";
+import { Alert } from "./Alert";
+import { Transition } from "@headlessui/react";
 
 type Toast = {
-  children: string
-  variant?: 'success' | 'danger' | 'warning' | 'info'
-  size?: 'small' | 'large'
-  title?: string
-  onClose: () => void
-  link?: string
-  textLink?: string
-}
+  children: string;
+  variant?: "success" | "danger" | "warning" | "info";
+  size?: "large";
+  title?: string;
+  onClose: () => void;
+  link?: string;
+  textLink?: string;
+};
 
 export function useAlert() {
-  const [list, setAlerts] = useState<Toast[]>([])
+  const [list, setAlerts] = useState<Toast[]>([]);
 
   const createToast = (options: Toast): void => {
-    setAlerts([...list, options])
-  }
+    setAlerts([...list, options]);
+  };
 
   const closeAlert = (index: number): void => {
     setAlerts((alerts) => {
-      const updatedAlerts = [...alerts]
-      updatedAlerts.splice(index, 1)
-      return updatedAlerts
-    })
-  }
+      const updatedAlerts = [...alerts];
+      updatedAlerts.splice(index, 1);
+      return updatedAlerts;
+    });
+  };
 
   return {
     alerts: (
@@ -58,5 +58,5 @@ export function useAlert() {
       </div>
     ),
     createToast,
-  }
+  };
 }

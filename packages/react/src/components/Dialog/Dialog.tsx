@@ -2,12 +2,12 @@ import {
   Modal as DialogNextUI,
   ModalProps as DialogPropsNextUI,
   ModalContent,
-} from '@nextui-org/react'
-import { ReactNode } from 'react'
-import { twMerge } from 'tailwind-merge'
+} from "@nextui-org/react";
+import { ReactNode } from "react";
+import { twMerge } from "tailwind-merge";
 
 export interface DialogProps extends DialogPropsNextUI {
-  children: ReactNode
+  children: ReactNode;
 }
 
 export function DialogComponent({
@@ -22,11 +22,11 @@ export function DialogComponent({
       scrollBehavior="inside"
       hideCloseButton={hideCloseButton ?? true}
       className={twMerge(
-        'rounded justify-center max-w-[52rem] max-h-[80vh]',
-        className,
+        "rounded border border-solid justify-center max-w-[52rem] max-h-[80vh]",
+        className
       )}
     >
       <ModalContent className="">{children}</ModalContent>
     </DialogNextUI>
-  )
+  );
 }

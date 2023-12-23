@@ -1,12 +1,12 @@
-import { ReactNode } from 'react'
+import { ReactNode } from "react";
 
 export interface HeaderProps {
-  title: string
-  subtitle: string
-  back?: ReactNode
-  primaryActionBtn?: ReactNode
-  secondaryActionBtn?: ReactNode
-  tertiaryActionBtn?: ReactNode
+  title: string;
+  subtitle: string;
+  back?: ReactNode;
+  primaryActionBtn?: ReactNode;
+  secondaryActionBtn?: ReactNode;
+  tertiaryActionBtn?: ReactNode;
 }
 
 export function Header({
@@ -27,7 +27,7 @@ export function Header({
           </h1>
           <h3 className="text-sm text-colors-neutral-600">{subtitle}</h3>
         </div>
-        <div className="flex mb-2 items-center hidden sm:flex">
+        <div className="sm:mb-2 items-center hidden justify-center sm:flex ">
           {secondaryActionBtn || null}
         </div>
       </div>
@@ -39,5 +39,5 @@ export function Header({
         <div>{primaryActionBtn || null}</div>
       </div>
     </div>
-  )
+  );
 }
