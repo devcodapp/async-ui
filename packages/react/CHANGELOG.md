@@ -1,5 +1,11 @@
 # @asyncui/react
 
+## 3.2.2
+
+### Patch Changes
+
+- button color in modal header
+
 ## 3.2.1
 
 ### Patch Changes

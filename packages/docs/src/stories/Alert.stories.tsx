@@ -10,7 +10,6 @@ export default {
     children: "Alert with title and longer description.",
     variant: "warning",
     onClose: () => {},
-    size: "large",
     link: "https://www.google.com/",
     textLink: "Saiba Mais",
   },
