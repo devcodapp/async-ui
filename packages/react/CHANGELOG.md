@@ -1,5 +1,11 @@
 # @asyncui/react
 
+## 3.2.4
+
+### Patch Changes
+
+- add link storybook
+
 ## 3.2.3
 
 ### Patch Changes
